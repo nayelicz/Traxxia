@@ -37,3 +37,12 @@ Requiere Rust, target `wasm32v1-none` y Stellar CLI. El contrato usa `soroban-sd
 ## Seguridad y alcance
 
 Los datos locales de estado sirven solo para reflejar inmediatamente la reserva en esta demo; recargar desde otro dispositivo no muestra ese estado. Para producción, leer el estado del contrato y usar almacenamiento persistente para metadatos. El resultado de Gemini se calcula fuera de cadena y **no es una fuente objetiva ni libre de sesgos**. El score ilustrativo inicial no habilita automáticamente `purchase`. No se transmite la propiedad legal mediante este software.
+
+
+## Presentación y pitch
+
+- [Presentación PowerPoint de siete diapositivas](docs/Traccia-Presentacion.pptx)
+- [Pitch de tres minutos con tiempos por diapositiva](docs/Traccia-Pitch-03-minutos.md)
+- [Guion en texto](docs/Traccia-Pitch-03-minutos.txt)
+
+El PowerPoint incluye el guion en las notas del orador. Duración objetivo: 03:00, aproximadamente 377 palabras a 126 palabras por minuto. La presentación distingue el prototipo disponible de las integraciones pendientes en Testnet.

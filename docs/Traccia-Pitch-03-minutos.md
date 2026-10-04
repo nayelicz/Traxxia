@@ -1,0 +1,37 @@
+# Traccia · Pitch de 03:00 minutos
+
+Guion en español para siete diapositivas. Duración objetivo: 180 segundos, aproximadamente 377 palabras. Ensaya a unos 126 palabras por minuto y respeta los cambios de diapositiva. La duración exacta depende de la lectura y las pausas.
+
+## 1. Traccia · 0:00–0:20
+
+Comprar una propiedad implica confiar en un precio, en documentos y en personas. Pero, ¿cómo comprobamos qué información sustentó la decisión y qué condiciones aceptamos antes de pagar? Traccia propone reunir esa evidencia en una experiencia inmobiliaria sobre Stellar.
+
+## 2. La evidencia detrás de una compra · 0:20–0:45
+
+Pensemos en un fraccionamiento con varias casas en venta. El comprador recibe una ficha, una cotización y explicaciones que pueden cambiar durante la negociación. Nuestra oportunidad es conectar cada propiedad con un historial de valoración consultable, donde las fuentes y las reglas de la operación estén visibles desde el principio.
+
+## 3. Identidad digital por propiedad · 0:45–1:15
+
+Cada inmueble tiene una identidad digital con superficie, precio de referencia y estado. Gemini puede analizar información disponible y devolver una valoración acompañada de fuentes. El sistema calcula una huella digital del resultado, llamada hash. Nuestra propuesta es registrar esa huella en Stellar para comprobar si alguien modificó posteriormente el análisis. La confianza depende de la calidad de los datos y del oráculo que los publica.
+
+## 4. La experiencia del comprador · 1:15–1:45
+
+En el prototipo, el usuario explora cinco propiedades ficticias sobre un plano y selecciona una casa. Revisa sus características y solicita el análisis. Después conecta Freighter y puede firmar una reserva cuando el contrato esté configurado en Testnet. El objetivo es que el comprador comprenda el inmueble y la evidencia disponible antes de autorizar cualquier operación.
+
+## 5. Reglas de ejecución en Stellar · 1:45–2:15
+
+Las responsabilidades son claras. Gemini analiza. Una cuenta autorizada publica el resultado como oráculo. Soroban verifica las reglas, y Freighter permite al usuario firmar. El código de compra exige una valoración reciente y umbrales definidos de puntuación y confianza. Cuando se cumplen, contempla el pago con un token de prueba y el cambio de dueño del registro digital. Esto requiere validación en Testnet.
+
+## 6. Estado del prototipo · 2:15–2:40
+
+Hoy tenemos la interfaz compilada, una API con análisis ilustrativo y conexión opcional a Gemini, y el código del contrato en GitHub. Todavía falta verificar y desplegar el contrato, automatizar la publicación del oráculo y completar la compra desde la interfaz. El registro digital tampoco sustituye los documentos ni los procesos necesarios para transmitir una propiedad legalmente.
+
+## 7. El siguiente piloto · 2:40–3:00
+
+Proponemos comenzar con desarrolladores de fraccionamientos y probar un modelo de suscripción, con cobro por operaciones como hipótesis. Nuestro siguiente paso es un piloto completo en Testnet con fuentes verificables. Traccia busca que cada propiedad tenga una historia que el comprador pueda revisar antes de decidir.
+
+## Enlaces y alcance
+
+Repositorio: https://github.com/nayelicz/Traxxia
+
+El guion describe el prototipo y la visión. El contrato todavía necesita compilación y validación en Testnet. La transmisión legal de inmuebles requiere procesos externos. La tokenización fraccionada y la emisión de un token inmobiliario estándar quedan fuera del prototipo actual.
